@@ -1,0 +1,14 @@
+# 本地数据库(含本地数据, 不入库; 演示数据可用 python init_demo_data.py 重建)
+cash_plan.db
+*.db
+
+# 环境配置(可能含 API Key, 严禁入库; .env.example 为模板会正常提交)
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 临时文件
+test_*.xlsx
+*.log
